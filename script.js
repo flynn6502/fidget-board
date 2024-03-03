@@ -8,6 +8,10 @@ function powerLight() {
  }
 }
 
+function myFunction(x) {
+   x.classList.toggle("fa-thumbs-down");
+ }
+
 element = document.querySelector('button');
 element.addEventListener('click', powerLight)
 

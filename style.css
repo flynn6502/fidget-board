@@ -28,6 +28,7 @@ html {
   text-align: center;
 }
 
+
 #lb-img {
   width: 120px;
   vertical-align: middle;
@@ -36,4 +37,14 @@ html {
 
 .button {
   position: relative;
+}
+
+.fa {
+  font-size: 120px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.fa:hover {
+  color: gray
 }
