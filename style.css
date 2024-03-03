@@ -1,0 +1,39 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.flex-container {
+  display:flex;
+  flex-flow: row wrap;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  row-gap: 10px;
+}
+
+.flex-item {
+  background: white;
+  padding: 10px;
+  border: 1px solid gray;
+  width: 200px;
+  height: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 150px;
+  color: black;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+}
+
+#lb-img {
+  width: 120px;
+  vertical-align: middle;
+  position: relative;
+}
+
+.button {
+  position: relative;
+}
